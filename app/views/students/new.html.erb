@@ -1,6 +1,6 @@
 <%= form_tag students_path do %>
 
-<% if params %>
+<% if !(params == nil) %>
   <%= @student.first_name %>
 <% end %>
 
