@@ -1,7 +1,7 @@
 <%= form_tag students_path do %>
 
 <% if !(@student == nil) %>
-  <%= @student.first_name.to_s %>
+  <%= "#{@student.first_name}" %>
 <% end %>
 
 <h1>Student Form:</h1>
